@@ -8,6 +8,6 @@ projects[drupal][version] = "7.26"
 
 ;------------------------------------------------------------------------------------------
 ; Include "network" git
-projects[network][type] = profile
-projects[network][download][type] = git
-projects[network][download][url] = git://github.com/dwork/oip_agent.git
+projects[oip_agent][type] = profile
+projects[oip_agent][download][type] = git
+projects[oip_agent][download][url] = git://github.com/dwork/oip_agent.git
