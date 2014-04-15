@@ -1,0 +1,87 @@
+; network.info version 1.2
+
+name = network
+core = 7.x
+description =  OIP Agent distribution
+
+; Core
+dependencies[] = book
+dependencies[] = contact
+
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+; dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+
+; Contrib
+; dependencies[] = admin
+dependencies[] = admin_menu
+dependencies[] = auto_nodetitle
+dependencies[] = boxes
+dependencies[] = calendar
+; note - clone is in my git repository, but is a "copy" of node_clone
+dependencies[] = clone
+; dependencies[] = coder
+dependencies[] = context
+; dependencies[] = context_ui
+dependencies[] = css_injector
+dependencies[] = ctools
+dependencies[] = date_repeat_api
+dependencies[] = date_repeat_field
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = entityreference
+; dependencies[] = eva
+dependencies[] = fancy_login
+dependencies[] = features
+; dependencies[] = fe_block
+; dependencies[] = hierarchical_select
+; dependencies[] = hs_taxonomy
+; dependencies[] = hs_taxonomy_views
+dependencies[] = image
+dependencies[] = libraries
+dependencies[] = logintoboggan
+dependencies[] = nice_menus
+dependencies[] = node_reference
+dependencies[] = nodereference_url
+; dependencies[] = markdown
+dependencies[] = openid
+dependencies[] = openidadmin
+dependencies[] = readmorecontrol
+dependencies[] = rules
+dependencies[] = simplenews
+dependencies[] = smtp
+dependencies[] = special_menu_items
+dependencies[] = strongarm
+dependencies[] = token_tweaks
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_php
+dependencies[] = views_send
+dependencies[] = views_ui
+; dependencies[] = views_fluid_grid
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+
+; Custom Features (levelten)
+
+dependencies[] = seotools
+dependencies[] = socialmedia
+dependencies[] = oip_listing
