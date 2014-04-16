@@ -48,18 +48,9 @@ function oip_agent_profile_setup() {
         variable_set('smtp_from','dwork@oip.net');
 
        // Create vocabularies
-        oip_create_taxonomy('Forums','forums','Forum navigation vocabulary','Enter a major forum category');
-        oip_create_taxonomy('Company/User Type','company_type','Company or User Type','Enter a company or user type/category');
         oip_create_taxonomy('Designations','designations','Realtor Designations','Enter a  valid Realtor Designation');
         oip_create_taxonomy('Property Type','property_type','Type of Property','Enter a valid Property type');
         oip_create_taxonomy('Phone Type','phone_types','Phone/Message types','Enter a valid Phone or Message category');
-
-        // create Forum Categories
-        oip_create_taxonomy_term('General Discussion', 'This is a general discussion board. ','forums');
-        oip_create_taxonomy_term('Real Estate','This forum addresses question relating to Real Estate - buying, selling, agency, real estate law, and so on.', 'forums');
-        oip_create_taxonomy_term('Lending','This forum addresses questions relating to lending, financing, mortgages, mortgage insurance and so on.', 'forums');
-        oip_create_taxonomy_term('Contractor Corner','This forum relates to questions regarding remodeling, building, construction and so on.', 'forums');
-        oip_create_taxonomy_term('Email and Internet','This forum is specifically geared toward paid subscribers to this website - Realtors, contractors and so on.', 'forums');
 
         // Real Estate designations
         oip_create_taxonomy_term('ABR','Accredited Buyers Representative / ABR®', 'designations');
