@@ -17,7 +17,9 @@ projects[professional_theme][type] = theme
 # Override
 projects[features][subdir] = contrib
 projects[features][version] = "2.0"
+
 projects[views][version] = "3.7"
+projects[views][subdir] = "contrib"
 
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
@@ -28,8 +30,8 @@ projects[omega][version] = "3.1"
 projects[redirect][subdir] = contrib
 projects[redirect][version] = "1.0-rc1"
 
-projects[emfield[subdir] = contrib
 projects[emfield][version] = "1.0-alpha2"
+projects[emfield[subdir] = "contrib"
 
 projects[globalredirect[subdir] = contrib
 projects[globalredirect][version] = "1.5"
