@@ -119,6 +119,9 @@ projects[defaultcontent][subdir] = "contrib"
 projects[devel][version] = "1.4"
 projects[devel][subdir] = "contrib"
 
+projects[ds][version] = "2.6"
+projects[ds][subdir] = "contrib"
+
 projects[editablefields][version] = "1.0-alpha2"
 projects[editablefields][subdir] = "contrib"
 
