@@ -24,14 +24,14 @@ projects[views][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
+projects[emfield][version] = "1.0-alpha2"
+projects[emfield[subdir] = "contrib"
+
 projects[omega][subdir] = contrib
 projects[omega][version] = "3.1"
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = "1.0-rc1"
-
-projects[emfield][version] = "1.0-alpha2"
-projects[emfield[subdir] = "contrib"
 
 projects[globalredirect[subdir] = contrib
 projects[globalredirect][version] = "1.5"
