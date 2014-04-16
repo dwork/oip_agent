@@ -82,6 +82,4 @@ dependencies[] = views_slideshow_cycle
 
 ; Custom Features (levelten)
 
-dependencies[] = seotools
-dependencies[] = socialmedia
 dependencies[] = oip_listing

@@ -38,14 +38,8 @@ projects[kwresearch][version] = "1.0-alpha4"
 projects[media][subdir] = contrib
 projects[media][version] = "1.4"
 
-projects[metatag][subdir] = contrib
-projects[metatag][version] = "1.0-beta9"
-
-projects[seotools][subdir] = contrib
-projects[seotools][version] = "1.0-alpha6"
-
-projects[socialmedia][subdir] = contrib
-projects[socialmedia][version] = "1.0-beta3"
+;projects[metatag][subdir] = contrib
+;projects[metatag][version] = "1.0-beta9"
 
 ;--------------------
 ; Additional Contrib
