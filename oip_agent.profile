@@ -48,7 +48,7 @@ function oip_agent_profile_setup() {
         variable_set('smtp_from','dwork@oip.net');
 
        // Create vocabularies
-        oip_create_taxonomy('Designations','designations','Realtor Designations','Enter a  valid Realtor Designation');
+  //      oip_create_taxonomy('Designations','designations','Realtor Designations','Enter a  valid Realtor Designation');
         oip_create_taxonomy('Property Type','property_type','Type of Property','Enter a valid Property type');
         oip_create_taxonomy('Phone Type','phone_types','Phone/Message types','Enter a valid Phone or Message category');
 
