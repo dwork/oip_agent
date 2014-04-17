@@ -116,6 +116,9 @@ projects[date][subdir] = "contrib"
 projects[defaultcontent][version] = "1.0-alpha9"
 projects[defaultcontent][subdir] = "contrib"
 
+projects[delta][version] = "3.0-beta11"
+projects[delta][subdir] = "contrib"
+
 projects[devel][version] = "1.4"
 projects[devel][subdir] = "contrib"
 
@@ -157,6 +160,12 @@ projects[field_collection_views][subdir] = "contrib"
 
 projects[field_group][version] = "1.3"
 projects[field_group][subdir] = "contrib"
+
+projects[flag][version] = "3.4"
+projects[flag][subdir] = "contrib"
+
+projects[forward][version] = "2.0"
+projects[forward][subdir] = "contrib"
 
 projects[geocoder][version] = "1.2"
 projects[geocoder][subdir] = "contrib"
@@ -223,6 +232,21 @@ projects[oip_listing][download][url] = "https://github.com/dwork/oip_listing.git
 projects[oip_listing][subdir] = "contrib"
 projects[oip_listing][type] = "module"
 
+projects[realtor_user][download][type] = "git"
+projects[realtor_user][download][url] = "https://github.com/dwork/realtor_user.git"
+projects[realtor_user][subdir] = "contrib"
+projects[realtor_user][type] = "module"
+
+projects[oip_listing][download][type] = "git"
+projects[oip_listing][download][url] = "https://github.com/dwork/rets_bsf.git"
+projects[oip_listing][subdir] = "contrib"
+projects[oip_listing][type] = "module"
+
+projects[views_tweaks][download][type] = "git"
+projects[views_tweaks][download][url] = "https://github.com/dwork/views_tweaks.git"
+projects[views_tweaks][subdir] = "contrib"
+projects[views_tweaks][type] = "module"
+
 projects[youtube_field][download][type] = "git"
 projects[youtube_field][download][url] = "https://github.com/dwork/youtube_field.git"
 projects[youtube_field][subdir] = "contrib"
@@ -242,6 +266,9 @@ projects[token_tweaks][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
+
+projects[views_data_export][version] = "3.0-beta7"
+projects[views_data_export][subdir] = "contrib"
 
 projects[views_php][version] = "1.0-alpha1"
 projects[views_php][subdir] = "contrib"
