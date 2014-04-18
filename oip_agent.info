@@ -87,5 +87,5 @@ dependencies[] = views_tweaks
 ; Custom Features (levelten)
 
 dependencies[] = oip_listing
-dependencies[] = realtor_user
-dependencies[] = rets_bsf
+;dependencies[] = realtor_user
+;dependencies[] = rets_bsf
