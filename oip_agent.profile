@@ -90,6 +90,9 @@ function oip_agent_profile_setup() {
         oip_create_taxonomy_term('Message', 'Message Phone','phone_types');
         oip_create_taxonomy_term('Pager', 'Pager', 'phone_types');
 
+        // Flyer Types
+        oip_create_taxonomy_term('Classic Flyer','classic Flyer','Flyers');
+
 }
 
 /*
