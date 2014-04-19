@@ -19,13 +19,10 @@ projects[features][subdir] = contrib
 projects[features][version] = "2.0"
 
 projects[views][version] = "3.7"
-projects[views][subdir] = "contrib"
 
 projects[ctools][version] = "1.4"
-projects[ctools][subdir] = "contrib"
 
 projects[emfield][version] = "1.0-alpha2"
-projects[emfield[subdir] = "contrib"
 
 projects[omega][subdir] = contrib
 projects[omega][version] = "3.1"
