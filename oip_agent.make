@@ -229,6 +229,11 @@ projects[oip_listing][download][url] = "https://github.com/dwork/oip_listing.git
 projects[oip_listing][subdir] = "contrib/custom"
 projects[oip_listing][type] = "module"
 
+projects[tips][download][type] = "git"
+projects[tips][download][url] = "https://github.com/dwork/tips.git"
+projects[tips][subdir] = "contrib/custom"
+projects[tips][type] = "module"
+
 projects[realtor_user][download][type] = "git"
 projects[realtor_user][download][url] = "https://github.com/dwork/realtor_user.git"
 projects[realtor_user][subdir] = "contrib/custom"
