@@ -73,6 +73,7 @@ dependencies[] = smtp
 dependencies[] = special_menu_items
 dependencies[] = strongarm
 dependencies[] = token_tweaks
+dependencies[] = uuid_features
 dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_data_export
