@@ -266,6 +266,9 @@ projects[token][subdir] = "contrib"
 projects[token_tweaks][version] = "1.x-dev"
 projects[token_tweaks][subdir] = "contrib"
 
+projects[uuid][version] = "1.0-alpha5"
+projects[uuid][subdir] = "contrib"
+
 projects[uuid_features][version] = "1.0-alpha4"
 projects[uuid_features][subdir] = "contrib"
 
