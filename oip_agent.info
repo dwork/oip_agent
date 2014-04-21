@@ -92,5 +92,5 @@ dependencies[] = views_tweaks
 dependencies[] = oip_listing
 dependencies[] = realtor_user
 dependencies[] = tipstestimonials
-dependencies[] = mortgage_calculator
+; dependencies[] = mortgage_calculator
 dependencies[] = rets_bsf

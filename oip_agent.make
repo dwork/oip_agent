@@ -239,10 +239,10 @@ projects[realtor_user][download][url] = "https://github.com/dwork/realtor_user.g
 projects[realtor_user][subdir] = "contrib/custom"
 projects[realtor_user][type] = "module"
 
-projects[mortgage_calculator][download][type] = "git"
-projects[mortgage_calculator][download][url] = "https://github.com/dwork/mortgage_calculator.git"
-projects[mortgage_calculator][subdir] = "contrib/custom"
-projects[mortgage_calculator][type] = "module"
+; projects[mortgage_calculator][download][type] = "git"
+; projects[mortgage_calculator][download][url] = "https://github.com/dwork/mortgage_calculator.git"
+; projects[mortgage_calculator][subdir] = "contrib/custom"
+; projects[mortgage_calculator][type] = "module"
 
 projects[rets_bsf][download][type] = "git"
 projects[rets_bsf][download][url] = "https://github.com/dwork/rets_bsf.git"
