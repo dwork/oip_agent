@@ -101,6 +101,9 @@ projects[ckeditor][subdir] = "contrib"
 projects[cck_phone][version] = "1.x-dev"
 projects[cck_phone][subdir] = "contrib"
 
+projects[conditional_fields][version] = "3.0-alpha1"
+projects[conditional_fields][subdir] = "contrib"
+
 projects[context][version] = "3.2"
 projects[context][subdir] = "contrib"
 
