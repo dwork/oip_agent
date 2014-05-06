@@ -232,6 +232,11 @@ projects[oip_listing][download][url] = "https://github.com/dwork/oip_listing.git
 projects[oip_listing][subdir] = "contrib/custom"
 projects[oip_listing][type] = "module"
 
+projects[oip_tweaks][download][type] = "git"
+projects[oip_tweaks][download][url] = "https://github.com/dwork/oip_tweaks.git"
+projects[oip_tweaks][subdir] = "contrib/custom"
+projects[oip_tweaks][type] = "module"
+
 projects[tipstestimonials][download][type] = "git"
 projects[tipstestimonials][download][url] = "https://github.com/dwork/tipstestimonials.git"
 projects[tipstestimonials][subdir] = "contrib/custom"
