@@ -14,13 +14,10 @@ projects[mayo][subdir] = contrib
 projects[professional_theme][subdir] = contrib
 projects[professional_theme][type] = theme
 
-projects[ctools][version] = "1.9"
-
-projects[emfield][version] = "1.3"
-
 projects[features][subdir] = contrib
 projects[features][version] = "2.10"
 
+projects[views[subdir] = contrib
 projects[views][version] = "3.13"
 
 projects[omega][subdir] = contrib
@@ -175,7 +172,6 @@ projects[geophp][subdir] = "contrib"
 projects[hierarchical_select][version] = "3.0-beta7"
 projects[hierarchical_select][subdir] = "contrib"
 
-projects[imce][version] = "1.18"
 projects[imce][subdir] = "contrib"
 
 projects[insert_view][version] = "2.0"
