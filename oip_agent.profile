@@ -93,6 +93,9 @@ function oip_agent_profile_setup() {
         // Flyer Types
         oip_create_taxonomy_term('Classic Flyer','classic Flyer','Flyers');
 
+        // Company Type
+       	oip_create_taxonomy_term('Real Estate','Real Estate Agent or Agency','company_type');
+
 }
 
 /*
