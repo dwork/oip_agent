@@ -26,8 +26,13 @@ function oip_agent_install() {
     ->condition('name', $admin_theme)
     ->execute();
   variable_set('admin_theme', $admin_theme);
+
   // activate admin theme when editing a node
   variable_set('node_admin_theme', '1');
+  variable_set('mailsystem','1');
+  variable_set('htmlmail','1');
+  variable_set('module_filter','1');
+
   $blocks = array(
     array(
       'module' => 'system',

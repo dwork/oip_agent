@@ -17,7 +17,7 @@ projects[professional_theme][type] = theme
 projects[features][subdir] = contrib
 projects[features][version] = "2.10"
 
-projects[views[subdir] = contrib
+projects[views][subdir] = contrib
 projects[views][version] = "3.13"
 
 projects[omega][subdir] = contrib
@@ -46,8 +46,12 @@ projects[media][version] = "2.0-beta2"
 projects[smtp][subdir] = contrib
 projects[smtp][version] = 1.4
 
+projects[htmlmail][subdir] = contrib
+
 projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta4
+
+projects[maillog][subdir] = contrib
 
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
@@ -86,39 +90,39 @@ projects[markdown][version] = 1.2
 
 ; Modules
 projects[addressfield][version] = "1.2"
-projects[addressfield][subdir] = "contrib"
+projects[addressfield][subdir] = contrib
 
 projects[auto_nodetitle][version] = "1.0"
-projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][subdir] = contrib
 
 projects[ckeditor][version] = "1.17"
-projects[ckeditor][subdir] = "contrib"
+projects[ckeditor][subdir] = contrib
 
 projects[cck_phone][version] = "1.x-dev"
-projects[cck_phone][subdir] = "contrib"
+projects[cck_phone][subdir] = contrib
 
-projects[conditional_fields][subdir] = "contrib"
+projects[conditional_fields][subdir] = contrib
 
 projects[context][version] = "3.7"
-projects[context][subdir] = "contrib"
+projects[context][subdir] = contrib
 
 projects[css_injector][version] = "1.10"
-projects[css_injector][subdir] = "contrib"
+projects[css_injector][subdir] = contrib
 
 projects[date][version] = "2.9"
-projects[date][subdir] = "contrib"
+projects[date][subdir] = contrib
 
 projects[defaultcontent][version] = "1.0-alpha9"
-projects[defaultcontent][subdir] = "contrib"
+projects[defaultcontent][subdir] = contrib
 
 projects[delta][version] = "3.0-beta11"
-projects[delta][subdir] = "contrib"
+projects[delta][subdir] = contrib
 
 projects[devel][version] = "1.5"
-projects[devel][subdir] = "contrib"
+projects[devel][subdir] = contrib
 
 projects[ds][version] = "2.14"
-projects[ds][subdir] = "contrib"
+projects[ds][subdir] = contrib
 
 projects[editablefields][version] = "1.0-alpha2"
 projects[editablefields][subdir] = "contrib"
@@ -174,18 +178,19 @@ projects[geophp][subdir] = "contrib"
 projects[hierarchical_select][version] = "3.0-beta7"
 projects[hierarchical_select][subdir] = "contrib"
 
-projects[imce][subdir] = "contrib"
+projects[htmlmail][subdir] = contrib
+projects[imce][subdir] = contrib
 
 projects[insert_view][version] = "2.0"
-projects[insert_view][subdir] = "contrib"
+projects[insert_view][subdir] = contrib
 
 ; projects[libraries][version] = "2.3"
-projects[libraries][subdir] = "contrib"
+projects[libraries][subdir] = contrib
 
 ; projects[logintoboggan][version] = "1.5"
-projects[logintoboggan][subdir] = "contrib"
+projects[logintoboggan][subdir] = contrib
 
-projects[module_filter] = "contrib"
+projects[module_filter] = contrib
 
 projects[nice_menus][version] = "2.5"
 projects[nice_menus][subdir] = "contrib"
