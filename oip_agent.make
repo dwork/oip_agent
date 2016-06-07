@@ -97,6 +97,8 @@ projects[ckeditor][subdir] = "contrib"
 projects[cck_phone][version] = "1.x-dev"
 projects[cck_phone][subdir] = "contrib"
 
+projects[conditional_fields][subdir] = "contrib"
+
 projects[context][version] = "3.7"
 projects[context][subdir] = "contrib"
 
@@ -182,6 +184,8 @@ projects[libraries][subdir] = "contrib"
 
 ; projects[logintoboggan][version] = "1.5"
 projects[logintoboggan][subdir] = "contrib"
+
+projects[module_filter] = "contrib"
 
 projects[nice_menus][version] = "2.5"
 projects[nice_menus][subdir] = "contrib"
