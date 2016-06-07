@@ -40,7 +40,6 @@ dependencies[] = cck_phone
 ; note - clone is in my git repository, but is a "copy" of node_clone
 dependencies[] = clone
 ; dependencies[] = coder
-dependencies[] = conditional_fields
 dependencies[] = context
 ; dependencies[] = context_ui
 dependencies[] = css_injector
@@ -50,8 +49,6 @@ dependencies[] = ctools
 dependencies[] = delta
 dependencies[] = devel
 dependencies[] = diff
-dependencies[] = ds
-
 dependencies[] = email
 dependencies[] = entityreference
 ; dependencies[] = eva
@@ -93,7 +90,6 @@ dependencies[] = views_tweaks
 ; Custom Features (levelten)
 
 dependencies[] = oip_listing
-dependencies[] = oip_tweaks
 dependencies[] = realtor_user
 dependencies[] = tipstestimonials
 ; dependencies[] = mortgage_calculator

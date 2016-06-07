@@ -14,21 +14,20 @@ projects[mayo][subdir] = contrib
 projects[professional_theme][subdir] = contrib
 projects[professional_theme][type] = theme
 
-# Override
+projects[ctools][version] = "1.9"
+
+projects[emfield][version] = "1.3"
+
 projects[features][subdir] = contrib
-projects[features][version] = "2.0"
+projects[features][version] = "2.10"
 
-projects[views][version] = "3.7"
-
-projects[ctools][version] = "1.4"
-
-projects[emfield][version] = "1.0-alpha2"
+projects[views][version] = "3.13"
 
 projects[omega][subdir] = contrib
 projects[omega][version] = "3.1"
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = "1.0-rc1"
+projects[redirect][version] = "1.0-rc3"
 
 projects[globalredirect[subdir] = contrib
 projects[globalredirect][version] = "1.5"
@@ -37,10 +36,10 @@ projects[kwresearch][subdir] = contrib
 projects[kwresearch][version] = "1.0-alpha4"
 
 projects[media][subdir] = contrib
-projects[media][version] = "1.4"
+projects[media][version] = "2.0-beta2"
 
 ;projects[metatag][subdir] = contrib
-;projects[metatag][version] = "1.0-beta9"
+;projects[metatag][version] = "1.16"
 
 ;--------------------
 ; Additional Contrib
@@ -48,10 +47,10 @@ projects[media][version] = "1.4"
 
 ;  Allow site to email 
 projects[smtp][subdir] = contrib
-projects[smtp][version] = 1.0
+projects[smtp][version] = 1.4
 
 projects[mimemail][subdir] = contrib
-projects[mimemail][version] = 1.0-beta3
+projects[mimemail][version] = 1.0-beta4
 
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
@@ -66,20 +65,20 @@ projects[simplenews][version] =  "1.1"
 
 ;  Rules 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.6 
+projects[rules][version] = 2.9 
 
 ;  Calendar
 projects[calendar][subdir] = contrib
-projects[calendar][version] = 3.4
+projects[calendar][version] = 3.5
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.2
+projects[link][version] = 1.4
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][version] = 3.0-rc5
 
 projects[boxes][subdir] = contrib
-projects[boxes][version] = 1.1
+projects[boxes][version] = 1.2
 
 projects[markdown][subdir] = contrib
 projects[markdown][version] = 1.2
@@ -89,28 +88,25 @@ projects[markdown][version] = 1.2
 ; projects[markdown][patch][684554] = http://drupal.org/files/issues/markdown-684554.patch
 
 ; Modules
-projects[addressfield][version] = "1.0-beta5"
+projects[addressfield][version] = "1.2"
 projects[addressfield][subdir] = "contrib"
 
 projects[auto_nodetitle][version] = "1.0"
 projects[auto_nodetitle][subdir] = "contrib"
 
-projects[ckeditor][version] = "1.13"
+projects[ckeditor][version] = "1.17"
 projects[ckeditor][subdir] = "contrib"
 
 projects[cck_phone][version] = "1.x-dev"
 projects[cck_phone][subdir] = "contrib"
 
-projects[conditional_fields][version] = "3.0-alpha1"
-projects[conditional_fields][subdir] = "contrib"
-
-projects[context][version] = "3.2"
+projects[context][version] = "3.7"
 projects[context][subdir] = "contrib"
 
 projects[css_injector][version] = "1.10"
 projects[css_injector][subdir] = "contrib"
 
-projects[date][version] = "2.7"
+projects[date][version] = "2.9"
 projects[date][subdir] = "contrib"
 
 projects[defaultcontent][version] = "1.0-alpha9"
@@ -119,25 +115,25 @@ projects[defaultcontent][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
 projects[delta][subdir] = "contrib"
 
-projects[devel][version] = "1.4"
+projects[devel][version] = "1.5"
 projects[devel][subdir] = "contrib"
 
-projects[ds][version] = "2.6"
+projects[ds][version] = "2.14"
 projects[ds][subdir] = "contrib"
 
 projects[editablefields][version] = "1.0-alpha2"
 projects[editablefields][subdir] = "contrib"
 
-projects[email][version] = "1.2"
+projects[email][version] = "1.3"
 projects[email][subdir] = "contrib"
 
-projects[entity][version] = "1.3"
+projects[entity][version] = "1.7"
 projects[entity][subdir] = "contrib"
 
 projects[entityreference][version] = "1.1"
 projects[entityreference][subdir] = "contrib"
 
-projects[entityconnect][version] = "1.0-rc1"
+projects[entityconnect][version] = "1.0-rc5"
 projects[entityconnect][subdir] = "contrib"
 
 ; projects[eva][version] = "1.2"
@@ -146,49 +142,49 @@ projects[entityconnect][subdir] = "contrib"
 projects[fancy_login][version] = "3.0-beta6"
 projects[fancy_login][subdir] = "contrib"
 
-projects[features_extra][version] = "1.0-beta1"
+projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
 projects[field_permissions][version] = "1.0-beta2"
 projects[field_permissions][subdir] = "contrib"
 
-projects[field_collection][version] = "1.0-beta5"
+projects[field_collection][version] = "1.0-beta11"
 projects[field_collection][subdir] = "contrib"
 
 projects[field_collection_views][version] = "1.0-beta3"
 projects[field_collection_views][subdir] = "contrib"
 
-projects[field_group][version] = "1.3"
+projects[field_group][version] = "1.5"
 projects[field_group][subdir] = "contrib"
 
-projects[flag][version] = "3.4"
+projects[flag][version] = "3.7"
 projects[flag][subdir] = "contrib"
 
-projects[forward][version] = "2.0"
+projects[forward][version] = "2.1"
 projects[forward][subdir] = "contrib"
 
-projects[geocoder][version] = "1.2"
+projects[geocoder][version] = "1.3"
 projects[geocoder][subdir] = "contrib"
 
-projects[geofield][version] = "2.1"
+projects[geofield][version] = "2.3"
 projects[geofield][subdir] = "contrib"
 
 projects[geophp][version] = "1.7"
 projects[geophp][subdir] = "contrib"
 
-projects[hierarchical_select][version] = "3.0-alpha6"
+projects[hierarchical_select][version] = "3.0-beta7"
 projects[hierarchical_select][subdir] = "contrib"
 
-projects[imce][version] = "1.8"
+projects[imce][version] = "1.18"
 projects[imce][subdir] = "contrib"
 
 projects[insert_view][version] = "2.0"
 projects[insert_view][subdir] = "contrib"
 
-projects[libraries][version] = "2.2"
+; projects[libraries][version] = "2.3"
 projects[libraries][subdir] = "contrib"
 
-projects[logintoboggan][version] = "1.3"
+; projects[logintoboggan][version] = "1.5"
 projects[logintoboggan][subdir] = "contrib"
 
 projects[nice_menus][version] = "2.5"
@@ -200,7 +196,7 @@ projects[clone][download][url] = "https://github.com/dwork/clone.git"
 projects[clone][subdir] = "contrib"
 projects[clone][type] = "module"
 
-projects[pathauto][version] = "1.2"
+projects[pathauto][version] = "1.3"
 projects[pathauto][subdir] = "contrib"
 
 projects[profile2][version] = "1.3"
@@ -215,7 +211,7 @@ projects[readmorecontrol][subdir] = "contrib"
 projects[references][version] = "2.1"
 projects[references][subdir] = "contrib"
 
-projects[registration][version] = "1.3"
+projects[registration][version] = "1.6"
 projects[registration][subdir] = "contrib"
 
 projects[registration_views][version] = "1.0"
@@ -273,25 +269,25 @@ projects[image_gallery][subdir] = "contrib/custom"
 projects[image_gallery][type] = "module"
 projects[image_gallery][version] = "1.0-beta1"
 
-projects[token][version] = "1.5"
+projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
 
 projects[token_tweaks][version] = "1.x-dev"
 projects[token_tweaks][subdir] = "contrib"
 
-projects[uuid][version] = "1.x-dev"
+projects[uuid][version] = "1.0-beta1"
 projects[uuid][subdir] = "contrib"
 
-projects[uuid_features][version] = "1.x-dev"
+projects[uuid_features][version] = "1.0-alpha4"
 projects[uuid_features][subdir] = "contrib"
 
-projects[views_bulk_operations][version] = "3.2"
+projects[views_bulk_operations][version] = "3.3"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[views_data_export][version] = "3.0-beta7"
+projects[views_data_export][version] = "3.0-beta9"
 projects[views_data_export][subdir] = "contrib"
 
-projects[views_php][version] = "1.0-alpha1"
+projects[views_php][version] = "1.0-alpha3"
 projects[views_php][subdir] = "contrib"
 
 projects[views_slideshow][version] = "3.1"
@@ -300,7 +296,7 @@ projects[views_slideshow][subdir] = "contrib"
 projects[widgets][version] = "1.0-rc1"
 projects[widgets][subdir] = "contrib"
 
-projects[xmlsitemap][version] = "2.0-rc2"
+projects[xmlsitemap][version] = "2.3"
 projects[xmlsitemap][subdir] = "contrib"
 
 projects[omega_network][download][type] = "git"
@@ -338,4 +334,4 @@ includes[socialmedia] = http://github.com/dwork/make-levelten/raw/master/socialm
 ;--------------------
 
 projects[coder][subdir] = contrib
-projects[coder][version] = 1.1
+projects[coder][version] = 2.5

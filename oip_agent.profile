@@ -41,7 +41,7 @@ function oip_agent_profile_setup() {
         # SMTP module defaults
         variable_set('smtp_on','1');
         variable_set('smtp_username','crxymail');
-        variable_set('smtp_password','crxy010#');
+        variable_set('smtp_password','me5Y010#');
         variable_set('smtp_port','587');
         variable_set('smtp_host','smtp.oip.net');
         variable_set('smtp_fromname','OIP');
