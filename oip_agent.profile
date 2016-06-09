@@ -96,6 +96,13 @@ function oip_agent_profile_setup() {
         // Company Type
        	oip_create_taxonomy_term('Real Estate','Real Estate Agent or Agency','company_type');
 
+        // MLS Type
+        oip_create_taxonomy_term('BSF','Broker Specific Feed','mls_type');
+        oip_create_taxonomy_term('BSP','Broker Specific Feed (Pendings)','mls_type');
+        oip_create_taxonomy_term('BSS','Broker Specific Feed (Solds)','mls_type');
+        oip_create_taxonomy_term('IDX','Displays IDX data on OIP hosted website','mls_type');
+
+
 }
 
 /*
