@@ -59,7 +59,6 @@ dependencies[] = entityreference
 ; dependencies[] = eva
 dependencies[] = fancy_login
 dependencies[] = features
-dependencies[] = features_extra
 dependencies[] = fe_block
 dependencies[] = flag
 dependencies[] = forward
