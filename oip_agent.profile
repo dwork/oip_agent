@@ -78,7 +78,7 @@ function oip_agent_profile_setup() {
         // Property Type
         oip_create_taxonomy_term('Residential','Residential or Farm/Ranch','property_type');
         oip_create_taxonomy_term('MultiFamily','MultiFamily - Duplex, Apartment, etc.','property_type');
-        oip_create_taxonomy_term('Lots and Land','Lots, land, acreage','property_type');
+        oip_create_taxonomy_term('Land','Lots, land, acreage','property_type');
         oip_create_taxonomy_term('Comm/Industrial','Commercial and industrial property','property_type');
         oip_create_taxonomy_term('Commercial Lease','Commercial Lease or Rental','property_type');
         oip_create_taxonomy_term('Rental','Rental Property','property_type');
