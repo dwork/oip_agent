@@ -95,6 +95,7 @@ dependencies[] = views_tweaks
 ; Custom Features (levelten)
 
 dependencies[] = oip_listing
+dependencies[] = oip_tweaks
 dependencies[] = realtor_user
 dependencies[] = tipstestimonials
 ; dependencies[] = mortgage_calculator
