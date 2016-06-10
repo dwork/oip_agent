@@ -51,6 +51,9 @@ function oip_agent_profile_setup() {
 		variable_set('user_pictures','1');
 		variable_set('user_picture_dimensions','100x150');
 		variable_set('user_picture_file_size','500');
+
+		// Module Filter module, switch
+		variable_set('module_filter_use_switch',0);
 		
        // Create vocabularies
   //      oip_create_taxonomy('Designations','designations','Realtor Designations','Enter a  valid Realtor Designation');
