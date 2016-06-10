@@ -96,6 +96,12 @@ function oip_agent_profile_setup() {
         // Company Type
        	oip_create_taxonomy_term('Real Estate','Real Estate Agent or Agency','company_type');
 
+       // Licensed State
+        oip_create_taxonomy_term('California','California','licensed_state_');
+        oip_create_taxonomy_term('Idaho','Idaho','licensed_state_');
+        oip_create_taxonomy_term('Oregon','Oregon','licensed_state_');
+        oip_create_taxonomy_term('Washington','Washington','licensed_state_');
+
         // MLS Type
         oip_create_taxonomy_term('BSF','Broker Specific Feed','mls_type');
         oip_create_taxonomy_term('BSP','Broker Specific Feed (Pendings)','mls_type');
