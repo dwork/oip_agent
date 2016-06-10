@@ -18,7 +18,6 @@ projects[features][subdir] = contrib
 projects[features][version] = "2.10"
 projects[features_extra][subdir] = contrib
 
-projects[views][subdir] = contrib
 projects[views][version] = "3.13"
 
 projects[omega][subdir] = contrib
