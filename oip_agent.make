@@ -18,8 +18,6 @@ projects[features][subdir] = contrib
 projects[features][version] = "2.10"
 projects[features_extra][subdir] = contrib
 
-projects[views][version] = "3.13"
-
 projects[omega][subdir] = contrib
 projects[omega][version] = "3.1"
 
@@ -191,6 +189,7 @@ projects[libraries][subdir] = contrib
 projects[logintoboggan][subdir] = contrib
 
 projects[module_filter] = contrib
+projects[module_filter] = "2.0"
 
 projects[nice_menus][version] = "2.5"
 projects[nice_menus][subdir] = "contrib"
@@ -333,6 +332,12 @@ includes[image_gallery] = http://github.com/dwork/image_gallery/raw/master/image
 includes[enterprise_base] = http://github.com/dwork/make-levelten/raw/master/enterprise_base.make.inc
 includes[seotools] = http://github.com/dwork/make-levelten/raw/master/seotools.make.inc
 includes[socialmedia] = http://github.com/dwork/make-levelten/raw/master/socialmedia.make.inc
+
+projects[views][subdir] = contrib
+projects[views][version] = "3.13"
+
+projects[ctools][subdir] = contrib
+projects[ctools][version] = "1.9"
 
 ;--------------------
 ; Development
