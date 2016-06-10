@@ -47,6 +47,11 @@ function oip_agent_profile_setup() {
         variable_set('smtp_fromname','OIP');
         variable_set('smtp_from','dwork@oip.net');
 
+		// User Pictures
+		variable_set('user_pictures','1');
+		variable_set('user_picture_dimensions','100x150');
+		variable_set('user_picture_file_size','500');
+		
        // Create vocabularies
   //      oip_create_taxonomy('Designations','designations','Realtor Designations','Enter a  valid Realtor Designation');
 //        oip_create_taxonomy('Property Type','property_type','Type of Property','Enter a valid Property type');
