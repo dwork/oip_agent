@@ -35,6 +35,7 @@ dependencies[] = rdf
 dependencies[] = admin_menu
 dependencies[] = auto_nodetitle
 dependencies[] = boxes
+dependencies[] = better_exposed_filters
 dependencies[] = calendar
 dependencies[] = cck_phone
 ; note - clone is in my git repository, but is a "copy" of node_clone

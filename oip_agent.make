@@ -76,6 +76,9 @@ projects[link][version] = 1.4
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc5
 
+projects[better_exposed_filters][subdir] = contrib
+projects[better_exposed_filters][version] = 3.2
+
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.2
 
