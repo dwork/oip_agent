@@ -18,6 +18,9 @@ projects[features][subdir] = contrib
 projects[features][version] = "2.10"
 projects[features_extra][subdir] = contrib
 
+projects[feeds][subdir] = contrib
+projects[job_scheduler][subdir] = contrib
+
 projects[omega][subdir] = contrib
 projects[omega][version] = "3.1"
 
