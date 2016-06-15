@@ -309,6 +309,11 @@ projects[widgets][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.3"
 projects[xmlsitemap][subdir] = "contrib"
 
+projects[oip_theme][download][type] = "git"
+projects[oip_theme][download][url] = "https://github.com/dwork/oip_theme.git"
+projects[oip_theme][subdir] = "contrib"
+projects[oip_theme][type] = "theme"
+
 projects[omega_network][download][type] = "git"
 projects[omega_network][download][url] = "https://github.com/dwork/omega_network.git"
 projects[omega_network][subdir] = "contrib"

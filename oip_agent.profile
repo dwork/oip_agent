@@ -36,6 +36,20 @@ function oip_agent_install_tasks($install_state) {
 /**
  * Installer task callback.
  */
+function oip_agent_block_setup() {
+
+  $default_theme = 'oip_theme';
+  $admin_theme = 'seven';
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  foreach ($values as $record) {
+    $query->values($record);
+  }
+  $query->execute();
+}
+
+/**
+ * Installer task callback.
+ */
 function oip_agent_profile_setup() {
 
         # SMTP module defaults
