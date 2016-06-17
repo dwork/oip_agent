@@ -309,15 +309,10 @@ projects[widgets][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.3"
 projects[xmlsitemap][subdir] = "contrib"
 
-projects[oip_theme][download][type] = "git"
-projects[oip_theme][download][url] = "https://github.com/dwork/oip_theme.git"
-projects[oip_theme][subdir] = "contrib"
-projects[oip_theme][type] = "theme"
-
-projects[omega_network][download][type] = "git"
-projects[omega_network][download][url] = "https://github.com/dwork/omega_network.git"
-projects[omega_network][subdir] = "contrib"
-projects[omega_network][type] = "theme"
+projects[oip][download][type] = "git"
+projects[oip][download][url] = "https://github.com/dwork/oip_theme.git"
+projects[oip][subdir] = "contrib"
+projects[oip][type] = "theme"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
@@ -345,7 +340,7 @@ includes[seotools] = http://github.com/dwork/make-levelten/raw/master/seotools.m
 includes[socialmedia] = http://github.com/dwork/make-levelten/raw/master/socialmedia.make.inc
 
 projects[views][subdir] = contrib
-projects[views][version] = "3.13"
+projects[views][version] = "3.14"
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = "1.9"

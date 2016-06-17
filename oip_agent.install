@@ -105,7 +105,15 @@ function oip_agent_install() {
       'weight' => -17,
     ),
   );
-  shortcut_set_save($shortcut_set);// Create a default role for site administrators, with all available permissions assigned.
+  shortcut_set_save($shortcut_set);
+
+  // Create the "Agent" role
+  $agent_role = new stdClass();
+  $agent_role->name = 'Agent';
+  $agent_role->weight = 15;
+  user_role_save($agent_role);
+  
+  // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';
   $admin_role->weight = 10;
