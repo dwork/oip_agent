@@ -309,10 +309,10 @@ projects[widgets][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.3"
 projects[xmlsitemap][subdir] = "contrib"
 
-projects[oip][download][type] = "git"
-projects[oip][download][url] = "https://github.com/dwork/oip_theme.git"
-projects[oip][subdir] = "contrib"
-projects[oip][type] = "theme"
+projects[oip_theme][download][type] = "git"
+projects[oip_theme][download][url] = "https://github.com/dwork/oip_theme.git"
+projects[oip_theme][subdir] = "contrib"
+projects[oip_theme][type] = "theme"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
