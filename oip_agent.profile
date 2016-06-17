@@ -38,7 +38,7 @@ function oip_agent_install_tasks($install_state) {
  */
 function oip_agent_block_setup() {
 
-  $default_theme = 'oip_theme';
+  $default_theme = 'oip';
   $admin_theme = 'seven';
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
   foreach ($values as $record) {
