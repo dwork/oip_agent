@@ -107,6 +107,9 @@ function oip_agent_install() {
   );
   shortcut_set_save($shortcut_set);
 
+  // Assign specific permissions to Aonymouse user, as needed
+  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content'));
+
   // Create the "Agent" role
   $agent_role = new stdClass();
   $agent_role->name = 'Agent';
