@@ -111,7 +111,7 @@ function oip_agent_install() {
     variable_set('mail_system', array_merge(
        variable_get('mail_system', array('default-system' => 'DefaultMailSystem')), // Previously set mail_system variable
        array('login' => 'HTMLMailSystem__SmtpMailSystem')   // My new key(s) which ADD to the previous keys
-    );
+    ));
 	
   // Assign specific permissions to ANONYMOUS ROLE, as needed
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content'));
