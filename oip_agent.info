@@ -62,7 +62,6 @@ dependencies[] = fancy_login
 dependencies[] = features
 dependencies[] = feeds
 dependencies[] = fe_block
-dependencies[] = flag
 dependencies[] = forward
 dependencies[] = image
 dependencies[] = job_scheduler
