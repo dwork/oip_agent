@@ -83,6 +83,8 @@ dependencies[] = simplenews
 dependencies[] = smtp
 dependencies[] = special_menu_items
 dependencies[] = strongarm
+dependencies[] = themekey
+dependencies[] = themekey_ui
 dependencies[] = token_tweaks
 ; Need for Tips module content export
 dependencies[] = uuid
