@@ -13,6 +13,7 @@ projects[rubik][subdir] = contrib
 projects[mayo][subdir] = contrib
 projects[professional_theme][subdir] = contrib
 projects[professional_theme][type] = theme
+projects[basic][subdir] = contrib
 
 projects[features][subdir] = contrib
 projects[features][version] = "2.10"
@@ -278,6 +279,9 @@ projects[image_gallery][download][url] = "https://github.com/dwork/image_gallery
 projects[image_gallery][subdir] = "contrib/custom"
 projects[image_gallery][type] = "module"
 projects[image_gallery][version] = "1.0-beta1"
+
+projects[themekey][version] = "3.4"
+projects[themekey][subdir] = contrib
 
 projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
